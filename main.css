@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header > h1 {
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	text-shadow: 0 0 10px rgba(140,173,40,1.00);}
+
+body{
+	background: url("images/background.gif") repeat;
+	}
+#container{
+	width: 800px;
+	margin: 0 auto;
+	background: url("images/sky.png");
+	border-radius: 20px;
+	border:dashed 2px rgba(127,142,34,1.00)
+}
+
+#container article{
+	background-color:rgba(255,255,255,0.80);
+	border-radius: 20px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+	border:dashed 1px rgba(127,142,34,1.00)
+	
+}
+	
+.left{
+		width: 480px;
+		height: 200px;
+		float: left;
+	}
+
+.right{
+		width: 480px;
+		height: 230px;
+		float: right;
+	}
+
+.fakeleft{
+	width: 480px;
+	height: 200px;
+	float: left;
+	display: none;
+}
+
+.left2{
+	width: 480px;
+	height: 140px;
+	float: left;
+}
+
+.right2{
+	width: 480px;
+	height: 160px;
+	float: right;
+}
+
+.left3{
+	width: 480px;
+	height: 230px;
+	float: left;
+}
+
+.right3{
+	width: 480px;
+	height: 350px;
+	float: right;
+}
+
+.left4{
+	width: 480px;
+	height: 340px;
+	float: left;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.invisible {
+	visibility: hidden
+}
+
+p.clear {
+  clear: left;
+}
